@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../lib/style.css" />
+    <style>
+      #scene {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: gray;
+      }
+      #hello {
+        color: #def;
+        /* This text shadow will make the browser lag, but when we render into a video file, it will be 60fps smooth!!! */
+        text-shadow: 0 16px 64px black;
+        font: bold 120px Arimo, sans-serif;
+      }
+      html.is-transparent #scene {
+        background: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The scene element will be rendered to the video file. -->
+    <div id="scene">
+      <div id="hello">Hello, world!</div>
+    </div>
+
+    <script>
+
+
+      const fps = 60
+
+      // This function tells renderer about basic information about the video.
+      function getInfo() {
+        return {
+          fps,
+          numberOfFrames: 30 * fps,
+        }
+      }
+
+      // This function will be called before rendering each frame of the video.
+      function seekToFrame(frame) {
+        document.querySelector("#hello").style.transform=`translate(${frame%300-150}px,${frame/300}px)`
+      }
+    </script>
+  </body>
+</html>
