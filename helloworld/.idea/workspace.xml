@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05ed1498-de00-40cb-9573-b4f583e4b781" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remotion.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/remotion.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Arc.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Atom.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Logo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Subtitle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Title.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Video.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworldvanilla/examples/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworldvanilla/examples/bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworldvanilla/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +16,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1xgCKHJTKPoMyqPhc7sDOBi8Dew" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,14 +36,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\WebstormProjects\remotion-test\helloworld\node_modules\prettier" />
-    <property name="ts.external.directory.path" value="D:\WebstormProjects\remotion-test\helloworld\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\yuzho\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="Node.js.bundle.js">
+    <configuration name="bundle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bundle.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -71,7 +73,13 @@
     <list>
       <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
+      <item itemvalue="Node.js.bundle.js" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.bundle.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +91,7 @@
       <updated>1630767278296</updated>
       <workItem from="1630767279609" duration="1381000" />
       <workItem from="1630945957198" duration="1520000" />
+      <workItem from="1630948327844" duration="3917000" />
     </task>
     <servers />
   </component>
@@ -99,5 +108,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

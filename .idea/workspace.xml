@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5af551-4593-440a-a0e7-0657e71fb837" name="Default Changelist" comment="init" />
+    <list default="true" id="0a5af551-4593-440a-a0e7-0657e71fb837" name="Default Changelist" comment="tried to render the bundle from remotion in html5-animation-video-renderer">
+      <change afterPath="$PROJECT_DIR$/helloworld/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworldvanilla/examples/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworldvanilla/examples/bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworldvanilla/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/remotion.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/remotion.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +29,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/helloworldvanilla/examples" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Users\yuzho\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebstormProjects\remotion-test\helloworldvanilla\examples" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,6 +58,7 @@
       <workItem from="1630945880137" duration="79000" />
       <workItem from="1630947482630" duration="193000" />
       <workItem from="1630947684715" duration="42000" />
+      <workItem from="1630947736800" duration="2115000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1630947603170</created>
@@ -46,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630947603170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1630947767366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630947767366</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +98,7 @@
       <path value="$PROJECT_DIR$/helloworldvanilla" />
     </ignored-roots>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="tried to render the bundle from remotion in html5-animation-video-renderer" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to render the bundle from remotion in html5-animation-video-renderer" />
   </component>
 </project>
